@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Picture\Download Modern chess board background design vector illustration for free.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Picture\Download Modern chess board background design vector illustration for free.jpg" />
+  </ItemGroup>
+
+</Project>
